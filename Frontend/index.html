@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Candidate Response Evaluation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Candidate Response Evaluation</h1>
+
+    <label>Question</label>
+    <textarea id="question" readonly>
+What is Object-Oriented Programming?
+    </textarea>
+
+    <label>Candidate Answer</label>
+    <textarea id="answer"
+    placeholder="Enter candidate answer here..."></textarea>
+
+    <button onclick="evaluateAnswer()">
+        Evaluate Response
+    </button>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
