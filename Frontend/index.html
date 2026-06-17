@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Response Evaluation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Candidate Response Evaluation</h1>
+
+        <div id="questionBox">
+
+            <h3 id="questionNumber"></h3>
+
+            <label>Question</label>
+            <textarea id="question" readonly></textarea>
+
+            <label>Candidate Answer</label>
+            <textarea
+                id="answer"
+                placeholder="Enter your answer here..."
+            ></textarea>
+
+            <button id="nextBtn">
+                Next Question
+            </button>
+
+        </div>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
